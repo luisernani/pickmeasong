@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    color: #FADB3F;
+    background-color: #27332D;
+}
+
+header{
+    text-align: center;
+    margin: 0vh 10vh 0vh;
+    border-radius: 20px;
+    font-size: 30px;  
+}
+
+footer{
+    text-align: center;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #FADB3F;
+}
+
+i{
+    font-size: 50px;
+    padding: 0px 10px 0px;
+}
+
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 25px;
+    padding: 10px 0px 10px;
+    margin: 0;
+}
+
+ul{
+    font-size: 20px;
+    list-style: none ;
+    text-align: justify;
+}
+label{
+    cursor: pointer;
+}
+
+.logo{
+    width: 250px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;    
+}
+
+#btnPick{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: #FADB3F;
+    background-color:#27332D;
+    border: none;
+    box-shadow: black 5px 5px 10px;
+    cursor: pointer;
+}
+#btnPick:active{
+    transform: translateY(4px);
+    box-shadow: black 0px 0px 10px;
+}
+
+
+#menu{
+    text-align: center;
+    width: 50vh;
+    height: 50vh;
+    padding: 10px;
+    color: #27332D;
+    background-color: #FADB3F;
+}
+
+#outPut{
+    width: 100vh;
+    height: 50vh;
+    margin: 0px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe{
+    width: 80vh;
+    height: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+
+    header{
+        font-size: 20px;      
+    }
+    section{
+        height: 600px;
+    }
+    #menu{
+        height: 300px;
+    }
+
+    .logo{
+        width: 150px;
+    }
+    
+
+    #outPut{
+        height: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    iframe{
+        width:fit-content;
+        height:auto;
+    }
+
+}
