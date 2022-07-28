@@ -15,12 +15,6 @@ export const songs = [
 },
 {
     genre:'grunge',
-    artist: 'Pearl Jam',
-    songName: 'Not For You',
-    youtube: '<iframe width="560" height="315" src="https://www.youtube.com/embed/KbGxcn0qOz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
-},
-{
-    genre:'grunge',
     artist: 'Nirvana',
     songName: 'Stay Away',
     youtube: '<iframe width="560" height="315" src="https://www.youtube.com/embed/3YtH2rjrfaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>' ,
